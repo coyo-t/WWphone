@@ -50,7 +50,7 @@ if mouse_clickOn(id, mb_left)
 	#region ventmode is on
 	else if controller.ventMode 
 	{
-		if controller.currentVent != whatVent - 1 then
+		if controller.currentVent != whatVent - 1 and isVent then
 		{
 			if controller.currentVent != whatVent - 1
 			{
@@ -61,7 +61,7 @@ if mouse_clickOn(id, mb_left)
 		}
 			
 		//if its toggleable to a main cam
-		else if canToggle and controller.currentVent == whatVent - 1 and controller.ventMode then
+		else if canToggle and controller.currentVent == whatVent - 1 and controller.ventMode and isVent then
 		{
 			audio_play_sound(snd_button_fail, 1, false)
 		
@@ -75,4 +75,4 @@ if mouse_clickOn(id, mb_left)
 	#endregion
 }
 
-if isVent then instance_destroy()
+//if isVent then instance_destroy()

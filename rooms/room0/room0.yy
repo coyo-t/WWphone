@@ -20,13 +20,7 @@
         "5436bbbc-f092-454b-86ba-be5e5e2372f3",
         "5ab4cce1-19bf-4065-bfb3-0daa59310a42",
         "4291cbb7-7bc4-4c74-96f8-96a96fbbcc4c",
-        "4e3c7bcc-20be-4ef1-b6c6-70cc81a82240",
-        "1ff23fc4-ea41-4937-b2f1-01d175657488",
-        "f2fd01c5-7a99-422d-9888-b98fbde5cfbd",
-        "ed186cdf-6b5c-43b2-b6e7-f5b7fba2e7b9",
-        "f1742f4e-54c3-4c74-94b6-5f8ef6369aa9",
-        "9dd6d1e1-974f-4e73-a84b-510ee258aec4",
-        "19296e31-e82b-4fea-9f42-06596abe1769"
+        "4e3c7bcc-20be-4ef1-b6c6-70cc81a82240"
     ],
     "IsDnD": false,
     "layers": [
@@ -68,40 +62,9 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
-            "name": "camButtonCollisionsVent",
-            "id": "83eb360e-0d80-491d-a6ad-f7fa7a466e92",
-            "depth": 100,
-            "grid_x": 32,
-            "grid_y": 32,
-            "hierarchyFrozen": false,
-            "hierarchyVisible": false,
-            "inheritLayerDepth": false,
-            "inheritLayerSettings": false,
-            "inheritSubLayers": false,
-            "inheritVisibility": false,
-            "instances": [
-                {"name": "inst_37EBAF9B","id": "1ff23fc4-ea41-4937-b2f1-01d175657488","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_37EBAF9B.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_37EBAF9B","objId": "b88a8772-da75-4446-a9a1-626eef1a4f6b","rotation": 0,"scaleX": 2.546875,"scaleY": 0.953125,"mvc": "1.0","x": 5,"y": 60},
-                {"name": "inst_40E3F37","id": "f2fd01c5-7a99-422d-9888-b98fbde5cfbd","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_40E3F37.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_40E3F37","objId": "b88a8772-da75-4446-a9a1-626eef1a4f6b","rotation": 0,"scaleX": 1.5,"scaleY": 0.953125,"mvc": "1.0","x": 173,"y": 60},
-                {"name": "inst_7591A2FF","id": "ed186cdf-6b5c-43b2-b6e7-f5b7fba2e7b9","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_7591A2FF.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_7591A2FF","objId": "b88a8772-da75-4446-a9a1-626eef1a4f6b","rotation": 0,"scaleX": 0.796875,"scaleY": 1.921875,"mvc": "1.0","x": 218,"y": 126},
-                {"name": "inst_2347F849","id": "f1742f4e-54c3-4c74-94b6-5f8ef6369aa9","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_2347F849.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_2347F849","objId": "b88a8772-da75-4446-a9a1-626eef1a4f6b","rotation": 0,"scaleX": 1.5,"scaleY": 0.953125,"mvc": "1.0","x": 5,"y": 126},
-                {"name": "inst_53147EA0","id": "9dd6d1e1-974f-4e73-a84b-510ee258aec4","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_53147EA0.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_53147EA0","objId": "b88a8772-da75-4446-a9a1-626eef1a4f6b","rotation": 0,"scaleX": 1.5,"scaleY": 2.078125,"mvc": "1.0","x": 5,"y": 192},
-                {"name": "inst_4F36C7F7","id": "19296e31-e82b-4fea-9f42-06596abe1769","colour": { "Value": 4294967295 },"creationCodeFile": "InstanceCreationCode_inst_4F36C7F7.gml","creationCodeType": ".gml","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_4F36C7F7","objId": "b88a8772-da75-4446-a9a1-626eef1a4f6b","rotation": 0,"scaleX": 0.796875,"scaleY": 1.109375,"mvc": "1.0","x": 218,"y": 254}
-            ],
-            "layers": [
-
-            ],
-            "m_parentID": "00000000-0000-0000-0000-000000000000",
-            "m_serialiseFrozen": false,
-            "modelName": "GMRInstanceLayer",
-            "mvc": "1.0",
-            "userdefined_depth": false,
-            "visible": false
-        },
-        {
-            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "miscButtonCollision",
             "id": "c30f4384-66c9-4575-8712-dbf4efbd2d67",
-            "depth": 200,
+            "depth": 100,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -131,7 +94,7 @@
             "assets": [
                 {"__type": "GMRSpriteGraphic_Model:#YoYoStudio.MVCFormat","name": "graphic_6EADE85D","id": "6df91296-56b4-4d4c-8047-6553802c42dc","animationFPS": 0,"animationSpeedType": "0","colour": { "Value": 4294967295 },"frameIndex": 1,"ignore": false,"inheritItemSettings": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRSpriteGraphic","rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","spriteId": "b7d2a1e1-14c6-4949-86d5-b796c6b6ac39","userdefined_animFPS": false,"x": 0,"y": 0}
             ],
-            "depth": 300,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -154,7 +117,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "camMainLogic",
             "id": "e0360a54-0c06-40e6-a14d-4a34bc2bd4e8",
-            "depth": 400,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -183,7 +146,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4283256141 },
-            "depth": 500,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
