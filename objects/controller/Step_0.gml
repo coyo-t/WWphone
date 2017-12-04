@@ -15,27 +15,26 @@ if wifiLevel == 0 and not audio_is_playing(snd_alert)
 	audio_play_sound(snd_alert, 0, true)
 
 //wifi event list
-var _wifiEvent1 = ((2 * 60) * 30)
-var _wifiEvent2 = ((1 * 60) * 30)
-var _wifiEvent3 = (45 * 30)
-var _wifiEvent4 = (30 * 30)
-var _wifiEvent5 = (10 * 30)
 
-
-if wifiTimer <= _wifiEvent2 and wifiTimer > _wifiEvent3 then
+if wifiTimer <= wifiEventsList[0] and wifiTimer > wifiEventsList[1] then
 	wifiLevel = 3
 
-if wifiTimer <= _wifiEvent3 and wifiTimer > _wifiEvent4 then
+if wifiTimer <= wifiEventsList[1] and wifiTimer > wifiEventsList[2] then
 	wifiLevel = 2
 
-if wifiTimer <= _wifiEvent4 and wifiTimer > _wifiEvent5 then
+if wifiTimer <= wifiEventsList[2] and wifiTimer > wifiEventsList[3] then
 	wifiLevel = 1
 
-if wifiTimer < _wifiEvent5 then
+if wifiTimer < wifiEventsList[3] then
 	wifiLevel = 0
 	
 if wifiTimer == 0 then
 {
-	room_goto(room01)
-	audio_stop_all()
+	if floor(irandom_range(0, 512)) == 0 then
+	{
+		room_goto(room01)
+		audio_stop_all()
+	}
+	else game_end()
+	
 }

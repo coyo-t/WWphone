@@ -1,2 +1,2 @@
 /// @desc
-wifiTimer = (2 * 30)
+wifiTimer = wifiEventsList[3]

@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "1dd0f7f3-4366-4058-9ad8-4b8465a74a39",
+            "Value": {
+                "id": "48dfa46a-a92e-449a-8bbb-3159fa9ac2ce",
+                "resourcePath": "scripts\\minutes_seconds\\minutes_seconds.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "27dadf58-f7d0-4c37-8866-988702f7f592",
             "Value": {
                 "id": "8d0a4dc0-262b-4eaa-a3bf-68c7e0f8669e",
@@ -319,6 +327,14 @@
             }
         },
         {
+            "Key": "94133487-5654-45f7-a25c-38ab9c89581e",
+            "Value": {
+                "id": "4ba69d61-da02-4900-8a2d-6844dcd2bc32",
+                "resourcePath": "sprites\\spr_heat_largeico\\spr_heat_largeico.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98d0d61d-0694-4da0-937f-706d353b445a",
             "Value": {
                 "id": "ae983422-543a-416d-852f-e7f882abd054",
@@ -407,6 +423,14 @@
             }
         },
         {
+            "Key": "b7f3bffd-334f-46e0-9e86-8d5b0d93edd2",
+            "Value": {
+                "id": "ab9b11d2-ba93-425a-8896-739aebe0d1b7",
+                "resourcePath": "views\\b7f3bffd-334f-46e0-9e86-8d5b0d93edd2.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b88a8772-da75-4446-a9a1-626eef1a4f6b",
             "Value": {
                 "id": "6f30742d-66d8-4e76-a054-d3cb1d4fed4c",
@@ -479,6 +503,14 @@
             }
         },
         {
+            "Key": "e5b45fd3-193d-4be6-af28-33b2cb1953c1",
+            "Value": {
+                "id": "69a0d41b-63e4-4fab-98c3-4004bd0cf459",
+                "resourcePath": "scripts\\rrandom\\rrandom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e9a6e0d7-81ac-444f-a7f3-de6891a199ee",
             "Value": {
                 "id": "8e47e95c-f84d-4cd9-941d-76af912cb671",
@@ -537,7 +569,9 @@
     ],
     "script_order": [
         "0dea2102-e13b-48fa-a5df-8d5cf3cbdc9b",
-        "04102a01-be98-4eaa-be6f-37d014280b5a"
+        "04102a01-be98-4eaa-be6f-37d014280b5a",
+        "e5b45fd3-193d-4be6-af28-33b2cb1953c1",
+        "1dd0f7f3-4366-4058-9ad8-4b8465a74a39"
     ],
     "tutorial": ""
 }

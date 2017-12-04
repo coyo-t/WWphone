@@ -44,7 +44,7 @@ if ventMode
 	if whatShutDown != -1 then
 		draw_sprite(spr_vent_shutdown, 0, 0, 0)
 
-	if whatHeat != -1 then
+	if whatHeat == -1 then
 		draw_sprite(spr_heat_active_vent, 0, 0, 0)
 
 	if currentVent == whatHeat and whatHeat != -1 then

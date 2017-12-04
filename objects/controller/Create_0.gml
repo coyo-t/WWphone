@@ -43,7 +43,7 @@ shutDownSprites =
 
 //wifi variables
 wifiLevel = 4
-wifiTimer = (2 * 60) * 30
+wifiTimer = minutes_seconds(1, 30, 30)
 wifiSprite = 
 [
 	spr_wifi_main,
@@ -55,6 +55,15 @@ wifiDangerSprite =
 [
 	spr_wifi_danger_main,
 	spr_wifi_danger_vent
+
+]
+
+wifiEventsList = 
+[
+	minutes_seconds(0, 55, 30),
+	minutes_seconds(0, 30, 30),
+	minutes_seconds(0, 10, 30),
+	minutes_seconds(0, 5, 30),
 
 ]
 
